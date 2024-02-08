@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 1280px;
+  height: 100px;
+  background-color: white;
+  color: black;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 40px;
+}
+
+.leftbar {
+  width: 200px;
+  height: 80vh;
+  text-align: center;
+  background-color: brown;
+}
+
+.rightbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.topbar {
+  width: 200px;
+  height: 40vh;
+  background-color: blue;
+}
+
+.belowbar {
+  width: 200px;
+  height: 40vh;
+  background-color: teal;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
